@@ -21,7 +21,7 @@ function AdminLogin() {
 
         try {
 
-           const res = await fetch("http://localhost:4000/admin", {
+           const res = await fetch("https://server-backend-tan.vercel.app/admin", {
     method: "POST",
     credentials: "include",
     headers: {

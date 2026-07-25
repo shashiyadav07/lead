@@ -9,7 +9,7 @@ function Dashboard() {
 
         const getLeads = async () => {
 
-            const res = await fetch("http://localhost:4000/adminHome", {
+            const res = await fetch("https://server-backend-tan.vercel.app/adminHome", {
                 credentials: "include"
             });
 

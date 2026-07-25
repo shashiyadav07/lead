@@ -22,7 +22,7 @@ function GetStarted() {
   e.preventDefault();
 
   try {
-    const res = await fetch("http://localhost:4000/lead", {
+    const res = await fetch("https://server-backend-tan.vercel.app/lead", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
