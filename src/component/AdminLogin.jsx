@@ -34,7 +34,7 @@ function AdminLogin() {
             const data = await res.json();
             if(data){
                 alert(data.message);
-        //    document.cookie = `token=${data.token}; path=/`;
+           document.cookie = `token=${data.token}; path=/`;
             console.log(document.cookie);
             navigate('/dashboard')
 
